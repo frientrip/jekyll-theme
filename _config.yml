@@ -1,0 +1,63 @@
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+
+# Site settings
+title: ""
+description: ""
+email: ''
+#blog logo
+logo: ""
+# blog cover
+cover: ""
+
+name: ''
+
+authors:
+  1:  # name alias 넣어주면 됨
+    name:
+    image:
+    bio:
+  2:
+    name:
+    image:
+    bio:
+
+paginate: 5
+
+url: "http://" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@'
+
+#fill in disqus shortname to use disqus
+disqus:
+
+timezone: Asia/Seoul
+
+# social icons and sharing options
+social:
+  - icon: twitter
+    url:  https://twitter.com/
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon: facebook
+    url: http://fb.me/
+    desc: Connect with me facebook
+    share_url: https://www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
+
+  - icon: github
+    url:  https://github.com/
+    desc: Fork me on github
+    share_url:
+    share_title:
+    share_link:

@@ -7,7 +7,7 @@ gems:
   - jekyll-redirect-from
 
 # Site settings
-title: ""
+title: "블로그"
 description: ""
 email: ''
 #blog logo
@@ -15,17 +15,13 @@ logo: ""
 # blog cover
 cover: ""
 
-name: ''
-
 authors:
-  1:  # name alias 넣어주면 됨
-    name:
-    image:
-    bio:
-  2:
-    name:
-    image:
-    bio:
+  # realignist:
+  #   name: Haze Lee
+  #   image: http://realignist.me/assets/images/pikachu_logo.png
+  # 2:
+  #   name:
+  #   image:
 
 paginate: 5
 
@@ -35,18 +31,12 @@ baseurl: ""
 twitter_handle: '@'
 
 #fill in disqus shortname to use disqus
-disqus:
+disqus: ''
 
 timezone: Asia/Seoul
 
 # social icons and sharing options
 social:
-  - icon: twitter
-    url:  https://twitter.com/
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
 
   - icon: facebook
     url: http://fb.me/
@@ -57,7 +47,7 @@ social:
 
   - icon: github
     url:  https://github.com/
-    desc: Fork me on github
+    desc: Our GitHub
     share_url:
     share_title:
     share_link:
